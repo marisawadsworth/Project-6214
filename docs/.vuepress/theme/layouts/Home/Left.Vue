@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "Right"
+        name: "Left"
     }
 </script>
 

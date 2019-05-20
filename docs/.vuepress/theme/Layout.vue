@@ -5,15 +5,56 @@
         </div>
 
         <nav>Navigation</nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncourse" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Course
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="course/5209.html">5209</a>
+                  <a class="dropdown-item" href="course/5210.html">5210</a>
+                  <a class="dropdown-item" href="course/5211.html">5211</a>
+                  <a class="dropdown-item" href="course/6209.html">6209</a>
+                  <a class="dropdown-item" href="course/6210.html">6210</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncontent" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Content
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="content/links.html">Links</a>
+                  <a class="dropdown-item" href="content/policy.html">Policy</a>
+              <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="content/toiohomai.html">Toi Ohomai</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncontact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../contact/contactform.html">Contact Form</a>
+                  <a class="dropdown-item" href="contact/socialmedia.html">Social Media</a>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <main>
-            <section class="left">
-                <Left />
-            </section>
-            <section class="right">
-                <Right />
-            </section>
-        </main>
+        <Home />
 
         <footer>
             <p>Marisa Wadsworth</p>
@@ -23,13 +64,11 @@
 </template>
 
 <script>
-    import Left from '../theme/layouts/Left'
-    import Right from '../theme/layouts/Right'
+    import Home from '../theme/layouts/Home/Home'
     import Logo from '../public/images/logo.png'
     export default {
-        components : {
-            Left,
-            Right
+        components: {
+            Home
         },
         data() {
             return {
@@ -67,33 +106,6 @@ nav {
     color: white;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-}
-
-.left {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 100%;
-
-    background-color: #efefef;
-    color: #222;
-}
-
-.right {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 100%;
-
-    background-color: #898989;
-    color: #222;
-}
 
 footer {
     display: grid;
@@ -108,12 +120,6 @@ footer {
 
     background-color: #777;
     color: white;
-}
-
-@media screen and (max-width: 640px) {
-    main {
-        grid-template-columns: 1fr;
-    }       
 }
 
 </style>
