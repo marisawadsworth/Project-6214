@@ -54,7 +54,10 @@
       </div>
     </nav>
 
-        <Home />
+        <template v-bind:props={name} >
+            <!-- <Home v-if={home} />
+            <About v-if={about} /> -->
+        </template>
 
         <footer>
             <p>Marisa Wadsworth</p>
@@ -65,13 +68,19 @@
 
 <script>
     import Home from '../theme/layouts/Home/Home'
+    import About from '../theme/layouts/About/About'
     import Logo from '../public/images/logo.png'
     export default {
         components: {
-            Home
+            Home,
+            About
         },
         data() {
             return {
+                props: [
+                    'home',
+                    'about'
+                ],
                 logo: Logo
             }
         }
