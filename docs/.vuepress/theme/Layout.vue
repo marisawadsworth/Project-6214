@@ -13,21 +13,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="http://localhost:8080">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About Me</a>
+            <a class="nav-link" href="http://localhost:8080/pages/about/">About Me</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncourse" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Course
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="course/5209.html">5209</a>
-                  <a class="dropdown-item" href="course/5210.html">5210</a>
-                  <a class="dropdown-item" href="course/5211.html">5211</a>
-                  <a class="dropdown-item" href="course/6209.html">6209</a>
-                  <a class="dropdown-item" href="course/6210.html">6210</a>
+                  <a class="dropdown-item" href="course/5209.md">5209</a>
+                  <a class="dropdown-item" href="course/5210.md">5210</a>
+                  <a class="dropdown-item" href="course/5211.md">5211</a>
+                  <a class="dropdown-item" href="course/6209.md">6209</a>
+                  <a class="dropdown-item" href="course/6210.md">6210</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -55,8 +55,8 @@
     </nav>
 
         <template v-bind:props={name} >
-            <!-- <Home v-if={home} />
-            <About v-if={about} /> -->
+            <Home v-if={home} />
+            <About v-if={about} />
         </template>
 
         <footer>
@@ -69,17 +69,20 @@
 <script>
     import Home from '../theme/layouts/Home/Home'
     import About from '../theme/layouts/About/About'
+    import Course from '../theme/layouts/Course/Course'
     import Logo from '../public/images/logo.png'
     export default {
         components: {
             Home,
-            About
+            About,
+            Courses
         },
         data() {
             return {
                 props: [
                     'home',
-                    'about'
+                    'about',
+                    'course'
                 ],
                 logo: Logo
             }
@@ -124,7 +127,7 @@ footer {
     height: 50px;
 
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
 
     background-color: #777;
