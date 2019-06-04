@@ -72,7 +72,7 @@
     // import Course from '../theme/layouts/Course/Course'
     import Logo from '../public/images/logo.png'
 
-    import 'bootstrap'
+    //import 'bootstrap'
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
