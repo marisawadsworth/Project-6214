@@ -13,21 +13,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="http://localhost:8080">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:8080/pages/about/">About Me</a>
+            <a class="nav-link" href="/pages/about/">About Me</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncourse" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Course
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="course/5209.md">5209</a>
-                  <a class="dropdown-item" href="course/5210.md">5210</a>
-                  <a class="dropdown-item" href="course/5211.md">5211</a>
-                  <a class="dropdown-item" href="course/6209.md">6209</a>
-                  <a class="dropdown-item" href="course/6210.md">6210</a>
+                  <a class="dropdown-item" href="/pages/course/5209.html">5209</a>
+                  <a class="dropdown-item" href="/pages/course/5210.html">5210</a>
+                  <a class="dropdown-item" href="/pages/course/5211.html">5211</a>
+                  <a class="dropdown-item" href="/pages/course/6209.html">6209</a>
+                  <a class="dropdown-item" href="/pages/course/6210.html">6210</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -35,8 +35,8 @@
               Content
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="content/links.html">Links</a>
-                  <a class="dropdown-item" href="content/policy.html">Policy</a>
+                  <a class="dropdown-item" href="/pages/content/links.html">Links</a>
+                  <a class="dropdown-item" href="/pages/content/policy.html">Policy</a>
               <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="content/toiohomai.html">Toi Ohomai</a>
               </div>
@@ -46,8 +46,8 @@
               Contact
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../contact/contactform.html">Contact Form</a>
-                  <a class="dropdown-item" href="contact/socialmedia.html">Social Media</a>
+                  <a class="dropdown-item" href="/pages/contact/contactform.html">Contact Form</a>
+                  <a class="dropdown-item" href="/pages/contact/socialmedia.html">Social Media</a>
           </div>
           </li>
         </ul>
@@ -69,20 +69,24 @@
 <script>
     import Home from '../theme/layouts/Home/Home'
     import About from '../theme/layouts/About/About'
-    import Course from '../theme/layouts/Course/Course'
+    // import Course from '../theme/layouts/Course/Course'
     import Logo from '../public/images/logo.png'
+
+    import 'bootstrap'
+    import 'bootstrap/dist/css/bootstrap.min.css'
+
     export default {
         components: {
             Home,
             About,
-            Courses
+            // Courses
         },
         data() {
             return {
                 props: [
                     'home',
-                    'about',
-                    'course'
+                    'about'
+                    // 'course'
                 ],
                 logo: Logo
             }
