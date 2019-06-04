@@ -1,6 +1,8 @@
 ---
 layout: About
 ---
+Testing
+
 <h1>About Me</h1>
 Hi my name is Marisa, and I am a student at Toi Ohomai InstituteTechnology in Tauranga.
 I am a kiwi girl from New Zealand. I love chocolate, animals, makephotography (being in front of the camera), and computers. I love learning things every day, gaming, hanging out with my family and exploring new area
