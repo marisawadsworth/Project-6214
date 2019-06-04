@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  repo: '10002444/Project-6214'   # Path to your Github/Gitlab repository
+  branch: master    # Branch to update
+  base_url: https://project-netlify-2.netlify.com 
+publish_mode: editorial_workflow
+media_folder: "/docs/.vuepress/public/images/"
+public_folder: "/images/"
+collections:
+  - name: "Home" 
+    label: "Home" 
+    folder: "docs" 
+    create: true 
+    delete: true
+    slug: "{{slug}}" 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title",name: "title",widget: "string"}
+      - {label: "Body",name: "body",widget: "markdown"}
+
+  - name: "Pages" 
+    label: "Pages" 
+    folder: "docs/pages" 
+    create: true 
+    delete: true
+    slug: "{{slug}}" 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title",name: "title",widget: "string"}
+      - {label: "Body",name: "body",widget: "markdown"}
