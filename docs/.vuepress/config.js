@@ -6,6 +6,6 @@ module.exports = {
     themeConfig: {
         docsDir: '/',
         github: '10002444/Project-6214',
-        adminLink: 'admin'
+        adminLink: 'admin/'
     }
 }
