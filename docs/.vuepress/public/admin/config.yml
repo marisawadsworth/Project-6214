@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: '10002444/Project-6214'   # Path to your Github/Gitlab repository
   branch: master    # Branch to update
   base_url: https://project-netlify-2.netlify.com 
