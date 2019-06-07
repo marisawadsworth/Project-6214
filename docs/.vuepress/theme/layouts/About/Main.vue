@@ -1,17 +1,17 @@
 <template>
     <main>
         <section class="left">
-            <!-- <Left /> -->
+            <Left />
         </section>
         <section class="right">
-            <!-- <Right /> -->
+            <Right />
         </section>
     </main>
 </template>
 
 <script>
-    import Left from './Left2'
-    // import Right from './Right'
+    import Left from './AboutLeft'
+    import Right from './AboutRight'
 
     export default {
         name: 'About',
@@ -19,8 +19,8 @@
             name: 'About'
         },
         components : {
-            // Left,
-            // Right
+            Left,
+            Right
         }
     }
 </script>
