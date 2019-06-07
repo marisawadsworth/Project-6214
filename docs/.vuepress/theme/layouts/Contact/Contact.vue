@@ -13,9 +13,9 @@
     import Left from './Left'
     import Right from './Right'
     export default {
-        name: "Contact",
+        name: 'Contact',
         props: {
-            name: "Contact"
+            name: 'Contact'
         },
         components : {
             Left,

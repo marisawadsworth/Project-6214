@@ -8,7 +8,7 @@
 <script>
     import Logo from '../../../public/images/profilepic.jpg'
     export default {
-        name: "Right",
+        name: 'Right',
         data() {
             return {
                 profilepic: Logo

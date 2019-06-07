@@ -34,7 +34,7 @@
 
 <script>
     export default {
-        name: "Policy",
+        name: 'Policy',
         props: {
             name: "Policy"
         },

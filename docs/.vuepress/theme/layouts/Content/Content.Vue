@@ -22,7 +22,7 @@
 <script>
     import Logo from '../../../public/images/toiohomai.jpg'
     export default {
-        name: "Content",
+        name: 'Content',
         data() {
             return {
                 Toiohomailogo: Logo

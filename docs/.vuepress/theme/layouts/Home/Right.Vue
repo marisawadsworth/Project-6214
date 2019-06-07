@@ -11,7 +11,7 @@
 
 <script>
     export default {
-        name: "Right"
+        name: 'Right'
     }
 </script>
 

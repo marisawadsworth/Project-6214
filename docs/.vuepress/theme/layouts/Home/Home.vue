@@ -13,9 +13,9 @@
     import Left from './Left'
     import Right from './Right'
     export default {
-        name: "Home",
+        name: 'Home',
         props: {
-            name: "home"
+            name: 'home'
         },
         components : {
             Left,

@@ -14,9 +14,9 @@
     import Right from './Right'
 
     export default {
-        name: "About",
+        name: 'About',
         props: {
-            name: "About"
+            name: 'About'
         },
         components : {
             // Left,
