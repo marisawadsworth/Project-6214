@@ -67,8 +67,8 @@
 </template>
 
 <script>
-    import Home from '../theme/layouts/Home/Home'
-    import About from '../theme/layouts/About/About'
+    import Home from './layouts/Home/Home'
+    import About from './layouts/About/About'
     // import Course from '../theme/layouts/Course/Course'
     import Logo from '../public/images/logo.png'
 
