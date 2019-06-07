@@ -19,7 +19,7 @@
             name: 'About'
         },
         components : {
-            // Left,
+            Left,
             Right
         }
     }
