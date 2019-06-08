@@ -70,7 +70,7 @@
 <script>
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
-    import Course from './layouts/Course/Course'
+    import Course from './layouts/Course/Main'
     import Logo from '../public/images/logo.png'
 
     //import 'bootstrap'
