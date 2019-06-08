@@ -39,7 +39,7 @@ collections:
 
   - name: "Course" 
     label: "Course" 
-    folder: "docs/pages/couse" 
+    folder: "docs/pages/course" 
     create: true 
     delete: true
     slug: "{{slug}}" 
