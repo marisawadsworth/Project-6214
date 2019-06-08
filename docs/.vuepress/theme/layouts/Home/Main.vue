@@ -10,8 +10,8 @@
 </template>
 
 <script>
-    // import Left from './Left'
-    // import Right from './Right'
+    import Left from './HomeLeft'
+    import Right from './HomeRight'
     export default {
         name: 'Home',
         props: {
