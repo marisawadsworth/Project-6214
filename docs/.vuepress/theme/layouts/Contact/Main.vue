@@ -10,8 +10,8 @@
 </template>
 
 <script>
-    // import Left from './Left'
-    // import Right from './Right'
+    import Left from './ContactLeft'
+    import Right from './ContactRight'
     export default {
         name: 'Contact',
         props: {
