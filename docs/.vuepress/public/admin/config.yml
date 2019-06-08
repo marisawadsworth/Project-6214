@@ -9,7 +9,7 @@ public_folder: "/images/"
 collections:
   - name: "Home" 
     label: "Home" 
-    folder: "docs" 
+    folder: "/" 
     create: true 
     delete: true
     slug: "{{slug}}" 

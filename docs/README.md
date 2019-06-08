@@ -1,4 +1,6 @@
 ---
+title: "Home"
+layout: Home
 ---
 
 <h1>Lorem ipsum</h1>
