@@ -57,6 +57,7 @@
         <template v-bind:props={name} >
             <Home v-if={home} />
             <About v-if={about} />
+            <Course v-if={courses} />
         </template>
 
         <footer>
@@ -85,8 +86,8 @@
             return {
                 props: [
                     'home',
-                    'about'
-                    // 'course'
+                    'about',
+                    'courses'
                 ],
                 logo: Logo
             }

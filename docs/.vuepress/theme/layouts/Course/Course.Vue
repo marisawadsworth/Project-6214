@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'course',
+        name: 'courses',
         props: {
             name: ['5209', '5210', '5211', '6209', '6210']
         }

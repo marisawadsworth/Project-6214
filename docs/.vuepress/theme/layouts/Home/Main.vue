@@ -18,8 +18,8 @@
             name: 'home'
         },
         components : {
-            // Left,
-            // Right
+            Left,
+            Right
         },
     }
 </script>
