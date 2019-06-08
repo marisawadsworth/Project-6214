@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: '10002444/Project-6214'   # Path to your Github/Gitlab repository
   branch: master  # Branch to update
-  base_url: https://project-netlify-2.netlify.com 
+  base_url: https://marisa-project2.netlify.com 
 publish_mode: editorial_workflow
 media_folder: "/docs/.vuepress/public/images/"
 public_folder: "/images/"
