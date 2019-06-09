@@ -41,14 +41,8 @@
                   <a class="dropdown-item" href="content/toiohomai.html">Toi Ohomai</a>
               </div>
           </li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncontact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contact
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/pages/contact/contactform.html">Contact Form</a>
-                  <a class="dropdown-item" href="/pages/contact/socialmedia.html">Social Media</a>
-          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact/contactform.html">Contact</a>
           </li>
         </ul>
       </div>
