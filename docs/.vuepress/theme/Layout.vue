@@ -48,11 +48,12 @@
       </div>
     </nav>
 
-        <template v-bind:props={name} >
-            <Home v-if={home} />
-            <About v-if={about} />
-            <Course v-if={courses} />
-        </template>
+        {{ WhatPage }}
+
+        <div v-if="WhatPage">
+            <About :is="About"/>
+            <!-- <Home :is="#"/> -->
+        </div>
 
         <footer>
             <p>Marisa Wadsworth</p>
@@ -78,12 +79,30 @@
         },
         data() {
             return {
-                props: [
-                    'home',
-                    'about',
-                    'courses'
-                ],
+                Home: 'home',
+                About: 'about',
+                Course: 'course',
                 logo: Logo
+            }
+        },
+        computed: {
+            WhatPage(){
+
+                let page = window.location.href.split('/')
+                let component = "";
+                
+                
+                if (page[3] === "pages" || "Pages") {
+                    component = page[4]
+                } else {
+                    console.log("WRONG!")
+                    component = "Home"
+                }
+
+                console.log(page)
+                console.log(component)
+
+                return component
             }
         }
     }
