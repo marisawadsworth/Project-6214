@@ -61,7 +61,7 @@
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
     import Course from './layouts/Course/Main'
-    import Contents from './layouts/Contents/Content'
+    import Contents from './layouts/Contents/Main'
     import Logo from '../public/images/logo.png'
 
     import 'bootstrap'
