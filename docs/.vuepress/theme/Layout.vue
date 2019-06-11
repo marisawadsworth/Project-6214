@@ -48,12 +48,7 @@
       </div>
     </nav>
 
-        {{ WhatPage }}
-
-        <div v-if="WhatPage">
-            <About :is="About"/>
-            <!-- <Home :is="#"/> -->
-        </div>
+        <component :is="WhatPage" />
 
         <footer>
             <p>Marisa Wadsworth</p>
@@ -66,22 +61,21 @@
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
     import Course from './layouts/Course/Main'
+    import Contents from './layouts/Contents/Content'
     import Logo from '../public/images/logo.png'
 
-    //import 'bootstrap'
+    import 'bootstrap'
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
         components: {
             Home,
             About,
-            Course
+            Course,
+            Contents
         },
         data() {
             return {
-                Home: 'home',
-                About: 'about',
-                Course: 'course',
                 logo: Logo
             }
         },
@@ -90,16 +84,13 @@
 
                 let page = window.location.href.split('/')
                 let component = "";
-                
-                
-                if (page[3] === "pages" || "Pages") {
-                    component = page[4]
+
+                if(page[3] !== "pages") {
+                    component = "home"
                 } else {
-                    console.log("WRONG!")
-                    component = "Home"
+                    component = page[4]
                 }
 
-                console.log(page)
                 console.log(component)
 
                 return component
