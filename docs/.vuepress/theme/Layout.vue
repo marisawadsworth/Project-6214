@@ -82,7 +82,7 @@
         computed: {
             WhatPage(){
 
-                let page = window.location.href.split('/')
+                let page = location.href.split('/')
                 let component = "";
 
                 if(page[3] !== "pages") {
