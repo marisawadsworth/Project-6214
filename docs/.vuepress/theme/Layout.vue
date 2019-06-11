@@ -48,6 +48,8 @@
       </div>
     </nav>
 
+        {{ GetHref }}
+
         <component :is="WhatPage" />
 
         <footer>
@@ -64,7 +66,7 @@
     import Contents from './layouts/Contents/Content'
     import Logo from '../public/images/logo.png'
 
-    // import 'bootstrap'
+    import 'bootstrap'
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
@@ -80,9 +82,10 @@
             }
         },
         computed: {
+
             WhatPage(){
 
-                let page = location.href.split('/')
+                let page = window.location.href.split('/')
                 let component = "";
 
                 if(page[3] !== "pages") {

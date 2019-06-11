@@ -1,6 +1,6 @@
 <template>
     <main>
-        <img :src="Toiohomailogo" alt="logo" />
+        <!-- <img :src="Toiohomailogo" alt="logo" /> -->
         <Content />
     </main>
 </template>
