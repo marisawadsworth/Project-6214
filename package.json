@@ -10,9 +10,12 @@
   "author": "Marisa Wadsworth",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^9.6.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
     "vuepress": "^0.14.11"
   }
 }

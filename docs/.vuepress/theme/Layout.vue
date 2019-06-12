@@ -66,9 +66,10 @@
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
     import Course from './layouts/Course/Main'
+    import Contents from './layouts/Contents/Content'
     import Logo from '../public/images/logo.png'
 
-    //import 'bootstrap'
+    import 'bootstrap'
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
