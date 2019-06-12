@@ -13,7 +13,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/about/">About Me</a>
@@ -48,12 +48,9 @@
       </div>
     </nav>
 
-        {{ WhatPage }}
+        {{ GetHref }}
 
-        <div v-if="WhatPage">
-            <About :is="About"/>
-            <!-- <Home :is="#"/> -->
-        </div>
+        <component :is="WhatPage" />
 
         <footer>
             <p>Marisa Wadsworth</p>
@@ -76,31 +73,27 @@
         components: {
             Home,
             About,
-            Course
+            Course,
+            Contents
         },
         data() {
             return {
-                Home: 'home',
-                About: 'about',
-                Course: 'course',
                 logo: Logo
             }
         },
         computed: {
+
             WhatPage(){
 
                 let page = window.location.href.split('/')
                 let component = "";
-                
-                
-                if (page[3] === "pages" || "Pages") {
-                    component = page[4]
+
+                if(page[3] !== "pages") {
+                    component = "home"
                 } else {
-                    console.log("WRONG!")
-                    component = "Home"
+                    component = page[4]
                 }
 
-                console.log(page)
                 console.log(component)
 
                 return component
