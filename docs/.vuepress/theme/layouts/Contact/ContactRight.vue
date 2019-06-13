@@ -11,7 +11,7 @@
         name: 'Right',
         data() {
             return {
-                profilepic: Me
+                profilepic: Logo
             }
         }
     }
