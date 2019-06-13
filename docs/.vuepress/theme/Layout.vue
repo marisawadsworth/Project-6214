@@ -54,11 +54,7 @@
       </div>
     </nav>
 
-        <template v-bind:props={name} >
-            <Home v-if={home} />
-            <About v-if={about} />
-            <Course v-if={courses} />
-        </template>
+        <component :is="WhatPage" />
 
         <footer>
             <p>Marisa Wadsworth</p>
@@ -90,6 +86,12 @@
                     'courses'
                 ],
                 logo: Logo
+            }
+        },
+        computed: {
+
+            WhatPage(){
+                return this.$options.parent.$frontmatter.layout
             }
         }
     }
