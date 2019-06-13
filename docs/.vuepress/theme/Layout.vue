@@ -48,6 +48,8 @@
       </div>
     </nav>
 
+    <!-- {{ WhatPage }} -->
+
         <component :is="WhatPage" />
 
         <footer>
@@ -68,6 +70,7 @@
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
+        name: "Layout",
         components: {
             Home,
             About,
@@ -82,7 +85,8 @@
         computed: {
 
             WhatPage(){
-                return this.$options.parent.$frontmatter.layout
+                console.log(this.$options.parent.$page.frontmatter.layout)
+                return this.$options.parent.$page.frontmatter.layout
             }
         }
     }
