@@ -13,7 +13,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/about/">About Me</a>
@@ -41,14 +41,8 @@
                   <a class="dropdown-item" href="content/toiohomai.html">Toi Ohomai</a>
               </div>
           </li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncontact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contact
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/pages/contact/contactform.html">Contact Form</a>
-                  <a class="dropdown-item" href="/pages/contact/socialmedia.html">Social Media</a>
-          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact/contactform.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,24 +61,21 @@
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
     import Course from './layouts/Course/Main'
+    import Contents from './layouts/Contents/Content'
     import Logo from '../public/images/logo.png'
 
-    //import 'bootstrap'
+    import 'bootstrap'
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
         components: {
             Home,
             About,
-            Course
+            Course,
+            Contents
         },
         data() {
             return {
-                props: [
-                    'home',
-                    'about',
-                    'courses'
-                ],
                 logo: Logo
             }
         },
