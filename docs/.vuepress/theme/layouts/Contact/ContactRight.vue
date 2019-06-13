@@ -19,11 +19,11 @@
 <style lang="css" scoped>
 
 .contact-img{
-    width: 450px;
-    float: right;
+    width: 300px;
+    height: 300px;
+    /* float: right; */
     margin: 20px;
-    margin-top: 50px;
-    margin-right: 50px;
+    /* border: 2px solid black; */
 }
 
 </style>

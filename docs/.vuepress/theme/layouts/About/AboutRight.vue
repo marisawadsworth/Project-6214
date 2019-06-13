@@ -19,10 +19,10 @@
 <style lang="css" scoped>
 
 .profilepic{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     /* float: right; */
     margin: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 </style>
