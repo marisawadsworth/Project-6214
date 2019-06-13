@@ -1,7 +1,6 @@
 <template>
     <div>
         <img :src="profilepic" alt="Me" class="profilepic">
-        <Content />
     </div>
 </template>
 

@@ -1,7 +1,6 @@
 <template>
     <div>
         <img :src="profilepic" alt="Me" class="contact-img">
-        <Content />
     </div>
 </template>
 
