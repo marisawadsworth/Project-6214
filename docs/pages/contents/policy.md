@@ -1,5 +1,6 @@
 ---
 layout: Contact
+title: Policy
 ---
     
 <h1>Toi Ohomai Regulations</h1>

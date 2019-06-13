@@ -1,5 +1,6 @@
 ---
 layout: Content
+title: Toiohomai
 ---
     
 <h1>About Toi Ohomai</h1><br>

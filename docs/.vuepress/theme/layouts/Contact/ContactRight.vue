@@ -19,7 +19,7 @@
 
 <style lang="css" scoped>
 
-.feedback-img{
+.contact-img{
     width: 450px;
     float: right;
     margin: 20px;
