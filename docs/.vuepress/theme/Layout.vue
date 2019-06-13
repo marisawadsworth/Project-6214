@@ -75,7 +75,8 @@
             Home,
             About,
             Course,
-            Contents
+            Contents,
+            Contact
         },
         data() {
             return {
