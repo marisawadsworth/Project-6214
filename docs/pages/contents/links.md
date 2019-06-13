@@ -1,5 +1,5 @@
 ---
-layout: contents
+layout: content
 ---
 
 Hello
