@@ -1,4 +1,5 @@
 ---
+layout: About
 title: About
 ---
 
