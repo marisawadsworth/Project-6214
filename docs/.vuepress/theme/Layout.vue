@@ -4,7 +4,6 @@
             <img :src="logo" alt="logo" />
         </div>
 
-        <nav>Navigation</nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -133,7 +132,7 @@ footer {
     /* bottom: 0; */
     width: 100%;
 
-    background-color: #777;
+    background-color: #999;
     color: white;
 }
 

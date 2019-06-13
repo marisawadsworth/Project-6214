@@ -49,7 +49,7 @@ main {
     box-sizing: border-box;
     height: 100%;
 
-    background-color: #898989;
+    background-color: #efefef;
     color: #222;
 }
 
