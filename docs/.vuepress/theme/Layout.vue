@@ -67,7 +67,8 @@
     import Logo from '../public/images/logo.png'
 
     //import 'bootstrap'
-    import 'bootstrap/dist/css/bootstrap.min.css'
+    //import 'bootstrap/dist/css/bootstrap.min.css'
+    import 'bootstrap/dist/css/bootstrap.css';
 
     export default {
         name: "Layout",
