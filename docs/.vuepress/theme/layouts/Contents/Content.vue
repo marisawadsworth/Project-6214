@@ -6,7 +6,6 @@
 </template>
 
 <script>
-console.log("TESTING!")
     import Logo from '../../../public/images/toiohomai.jpg'
     export default {
         name: 'content',
