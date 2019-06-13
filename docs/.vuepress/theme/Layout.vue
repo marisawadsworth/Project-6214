@@ -63,7 +63,7 @@
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
     import Course from './layouts/Course/Main'
-    import Contents from './layouts/Contents/'
+    import Contents from './layouts/Contents/Toiohomai'
     import Contact from './layouts/Contact/Main'
     import Logo from '../public/images/logo.png'
 
