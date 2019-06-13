@@ -47,7 +47,7 @@
       </div>
     </nav>
 
-        {{ GetHref }}
+    <!-- {{ WhatPage }} -->
 
         <component :is="WhatPage" />
 
@@ -66,10 +66,11 @@
     import Contact from './layouts/Contact/Main'
     import Logo from '../public/images/logo.png'
 
-    import 'bootstrap'
+    //import 'bootstrap'
     import 'bootstrap/dist/css/bootstrap.min.css'
 
     export default {
+        name: "Layout",
         components: {
             Home,
             About,
@@ -84,19 +85,8 @@
         computed: {
 
             WhatPage(){
-
-                let page = window.location.href.split('/')
-                let component = "";
-
-                if(page[3] !== "pages") {
-                    component = "home"
-                } else {
-                    component = page[4]
-                }
-
-                console.log(component)
-
-                return component
+                console.log(this.$options.parent.$page.frontmatter.layout)
+                return this.$options.parent.$page.frontmatter.layout
             }
         }
     }
