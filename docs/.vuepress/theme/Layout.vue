@@ -35,10 +35,9 @@
               Content
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/pages/content/links.html">Links</a>
-                  <a class="dropdown-item" href="/pages/content/policy.html">Policy</a>
+                  <a class="dropdown-item" href="/pages/contents/policy.html">Policy</a>
               <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="content/toiohomai.html">Toi Ohomai</a>
+                  <a class="dropdown-item" href="/pages/contents/toiohomai.html">Toi Ohomai</a>
               </div>
           </li>
           <li class="nav-item">
@@ -63,7 +62,8 @@
     import Home from './layouts/Home/Main'
     import About from './layouts/About/Main'
     import Course from './layouts/Course/Main'
-    import Contents from './layouts/Contents/Content'
+    import Contents from './layouts/Contents/Toiohomai'
+    import Contact from './layouts/Contact/Main'
     import Logo from '../public/images/logo.png'
 
     import 'bootstrap'

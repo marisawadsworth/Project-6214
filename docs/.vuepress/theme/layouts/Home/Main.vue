@@ -12,6 +12,7 @@
 <script>
     import Left from './HomeLeft'
     import Right from './HomeRight'
+    
     export default {
         name: 'Home',
         props: {

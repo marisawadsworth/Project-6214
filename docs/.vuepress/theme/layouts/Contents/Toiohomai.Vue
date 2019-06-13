@@ -1,29 +1,7 @@
 <template>
     <main>
-    <img :src="Toiohomailogo" alt="toiohomai" class="toiohomai">
+        <!-- <img :src="Toiohomailogo" alt="logo" /> -->
         <Content />
-
-    <br><h1>About Toi Ohomai</h1><br>
-    <p>At Toi Ohomai we truly believe that your success is key to the success of our whole region. That’s why we’re here - to help make your dreams a reality.
-        <br><br>More than 13,000 students just like you study with us across nearly 86 delivery sites, having chosen their course from more than 200 study options.
-        <br><br>With specialties in business, creative arts, engineering, forestry, health and nursing, hospitality, marine science, road transport, tourism, trades and more, there’s something for everyone. We offer courses from entry level certificates right through to postgraduate level. 
-        <br><br>Toi Ohomai is a network of purposeful connections with our community and industry – together we are forming constellations of excellence, knowledge, people, partnerships and innovation throughout the region, united in the exchange of knowledge. We are all here to be awakened and inspired by learning and to ensure our people, communities and region continue to prosper and flourish.
-        <br><br>We are one of the largest tertiary providers in the Bay of Plenty. Our five main campuses can be found throughout the beautiful Bay of Plenty and South Waikato in Rotorua, Taupō, Tauranga, Tokoroa and Whakatāne.</p>
-
-    <h4>THE STORY BEHIND OUR NAME</h4>
-      <p>Toi Ohomai means to aim high and achieve great heights; to be awakened by learning.
-          <br><br>Our name was gifted to us by iwi. It has a story that has been woven from our whakapapa, history and the aspirations of our communities.
-        <br><br>It's a representation of institutional excellence that supports innovation, connectedness and motivates and inspires the people of the region.      
-        <br><br><b>Toi</b> is the pinnacle of achievement. It inspires the pursuit of excellence.   
-        <br><br>It is also a reference to Toi-te-huatahi and Toi Kai-rākau – a common eponymous ancestor of iwi across the region.      
-        <br><br><b>Ohomai</b> is an awakening, to be alert and to create a shift in mindset. It is moving from a place of disillusionment to enlightenment and becoming transformed. It's also a reference to Ohomairangi, an eponymous ancestor of Te Arawa and Tainui.    
-        <br><br><b>Mai</b> also represents the geographical markers of the region in which Toi Ohomai operates, Mai Maketū ki Tongariro, mai i ngā Kuri a Whārei ki Tihirau, tae atu ki te Kaokaoroa a Patatere - it acknowledges the Mana Whenua, the place of learning for the students and also the place and space from which students originate and come from, their iwi, their community, in the region and across the country.</p>
-    
-      <h4>OUR HISTORY</h4>
-        <p>Toi Ohomai Institute of Technology is an amalgamation of two high performing institutions – Bay of Plenty Polytechnic in Tauranga, and Waiariki Institute of Technology in Rotorua. The institutions merged in May 2016 to better meet the education and employment needs of the region.
-        <br><br><a href="https://toiohomai.ac.nz/about/us/history-bay-plenty-polytechnic">Read the history of Bay of Plenty Polytechnic</a>
-        <br><br><a href="https://toiohomai.ac.nz/about/us/history-waiariki-institute-technology">Read the history of Waiariki Institute of Technology</a></p>
-
         </section>
     </main>
 </template>
@@ -31,7 +9,7 @@
 <script>
     import Logo from '../../../public/images/toiohomai.jpg'
     export default {
-        name: 'Toiohomai',
+        name: 'toiohomai',
         data() {
             return {
                 Toiohomailogo: Logo
@@ -41,6 +19,12 @@
 </script>
 
 <style lang="css" scoped>
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
 
 .toiohomai {
     display: block;

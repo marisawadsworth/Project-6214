@@ -18,8 +18,8 @@
             name: 'Contact'
         },
         components : {
-            // Left,
-            // Right
+            Left,
+            Right
         },
     }
 </script>
