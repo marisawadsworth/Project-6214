@@ -1,5 +1,6 @@
 ---
 title: About
+layout: About
 ---
 <h1>About Me</h1>
 Hi my name is Marisa, and I am a student at Toi Ohomai Institute Technology in Tauranga.
