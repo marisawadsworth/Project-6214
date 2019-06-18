@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: About
+layout: Home
 ---
 Hi, my name is Marisa and welcome to my portfoilo.
 
