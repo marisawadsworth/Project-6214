@@ -18,10 +18,10 @@
             <a class="nav-link" href="/pages/about/">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/course/">Course</a>
+            <a class="nav-link" href="/pages/course.html">Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/contents/">Content</a>
+            <a class="nav-link" href="/pages/contents.html">Content</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/contact/contactform.html">Contact</a>
