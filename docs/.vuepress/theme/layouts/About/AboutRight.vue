@@ -21,7 +21,7 @@
 .profilepic{
     width: 300px;
     height: 300px;
-    /* float: right; */
+    float: right;
     margin: 20px;
     /* border: 2px solid black; */
 }

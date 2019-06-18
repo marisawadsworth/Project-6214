@@ -1,5 +1,5 @@
 ---
-layout: Content
+layout: Contents
 title: Toiohomai
 ---
     

@@ -17,27 +17,11 @@
           <li class="nav-item">
             <a class="nav-link" href="/pages/about/">About Me</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncourse" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Course
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/pages/course/5209.html">5209</a>
-                  <a class="dropdown-item" href="/pages/course/5210.html">5210</a>
-                  <a class="dropdown-item" href="/pages/course/5211.html">5211</a>
-                  <a class="dropdown-item" href="/pages/course/6209.html">6209</a>
-                  <a class="dropdown-item" href="/pages/course/6210.html">6210</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/course/">Course</a>
           </li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowncontent" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Content
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/pages/contents/policy.html">Policy</a>
-              <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/pages/contents/toiohomai.html">Toi Ohomai</a>
-              </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contents/">Content</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/contact/contactform.html">Contact</a>

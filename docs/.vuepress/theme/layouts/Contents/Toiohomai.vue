@@ -1,19 +1,26 @@
 <template>
     <main>
-        <!-- <img :src="Toiohomailogo" alt="logo" /> -->
-        <Content />
+        <section class="left">
+            <Left />
+        </section>
+        <section class="right">
+            <Right />
         </section>
     </main>
 </template>
 
 <script>
-    import Logo from '../../../public/images/toiohomai.jpg'
+    import Left from './ContentsLeft'
+    import Right from './ContentsRight'
+
     export default {
-        name: 'toiohomai',
-        data() {
-            return {
-                Toiohomailogo: Logo
-            }
+        name: 'Toiohomai',
+        props: {
+            name: 'Toiohomai'
+        },
+        components : {
+            Left,
+            Right
         }
     }
 </script>
@@ -24,11 +31,5 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
-}
-
-.toiohomai {
-    display: block;
-    width: 50%;
-    height: 300px;
 }
 </style>

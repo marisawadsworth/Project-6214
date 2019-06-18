@@ -1,5 +1,5 @@
 ---
-layout: Contact
+layout: Contents
 title: Policy
 ---
     
@@ -7,7 +7,9 @@ title: Policy
 <br>
 
 <p>The Regulatory Framework for Quality Assurance document encompasses the institution's AcademicStatute, Academic Regulations, Quality Management System and staff and student Codes of Conduct.</p>
-<br><p><b>2018 Documents</b></p>
+<br>
+
+<p><b>2018 Documents</b></p>
   <a href="https://toiohomai.ac.nz/sites/default/files/inline-files2018%20Regulatory%20Framework%20%28approved%20AB121017%29.pdf">2018 Toi Ohomai Institute ofTechnology Regulatory Framework for Quality Assurance (pdf, 580kb)</a><br>
   <a href="https://toiohomai.ac.nz/sites/default/files/inline-filesToi%20Ohomai_Enrolment%20Terms%20and%20Conditions_2018.pdf">2018 Toi Ohomai Institute of TechnologyStudent Terms and Conditions of Enrolment (pdf, 41kb)</a><br>
   <a href="https://toiohomai.ac.nz/sites/default/files/inline-filesStudent%20Code%20of%20Conduct%20from%202018%20Regs.pdf">Student Code of Conduct* (pdf, 83kb)</a>
